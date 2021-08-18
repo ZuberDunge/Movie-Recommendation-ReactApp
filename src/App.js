@@ -71,10 +71,10 @@ export default function App() {
           color: "white"
         }}
       >
-        Marvel Movie Recommendation
+        Best Marvel Triology
       </h1>
       <p style={{ fontSize: "medium" }}>
-        Here's a list of my fav marvel. Select a genre to get started.
+        Some of the Greatest Marvel Triologies By Character Name!
       </p>
       <div>
         {Object.keys(MarvelMovies).map((category) => (
@@ -94,7 +94,7 @@ export default function App() {
           </button>
         ))}
       </div>
-      <hr />
+
       <div>
         <ul style={{ paddingInlineStart: "0" }}>
           {MarvelMovies[selectedActor].map((marvel) => (
