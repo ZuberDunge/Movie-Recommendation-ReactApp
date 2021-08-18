@@ -131,9 +131,12 @@ export default function App() {
         </ul>
       </div>
       <footer>
-        <p className="social">
-          Made with Love 💕 by<strong> Zuber Dunge </strong>
-        </p>
+        <marquee>
+          {" "}
+          <p className="social">
+            Made with Love 💕 by<strong> Zuber Dunge </strong>
+          </p>
+        </marquee>
         <img src={marvelposter} />
       </footer>
     </div>

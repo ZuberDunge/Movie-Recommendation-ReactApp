@@ -9,9 +9,8 @@ img {
 
 .social {
   padding: 5px;
-  background-color: #4338ca;
-  color: white;
+  color: #191F42;
 }
 .social:hover {
-  color: yellow;
+  color: red;
 }
