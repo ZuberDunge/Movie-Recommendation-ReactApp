@@ -131,6 +131,9 @@ export default function App() {
         </ul>
       </div>
       <footer>
+        <p className="social">
+          Made with Love 💕 by<strong> Zuber Dunge </strong>
+        </p>
         <img src={marvelposter} />
       </footer>
     </div>
