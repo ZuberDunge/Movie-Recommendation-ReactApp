@@ -5,12 +5,5 @@
 
 img {
   width: 100%;
-}
-
-.social {
-  padding: 5px;
-  color: #191F42;
-}
-.social:hover {
-  color: red;
+  padding-top: 3rem;
 }
