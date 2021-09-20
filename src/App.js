@@ -6,51 +6,60 @@ const MarvelMovies = {
   IronMan: [
     {
       name: "Iron Man",
-      year: "2008",
+      year:
+        "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       runtime: "2 hours, 6 minutes"
     },
     {
       name: "Iron Man 2",
-      year: "2010",
+      year:
+        "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
       runtime: "2 hours, 4 minutes"
     },
     {
       name: "Iron Man 3",
-      year: "2013",
+      year:
+        "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
       runtime: "2 hours, 10 minutes"
     }
   ],
   ThorOdinson: [
     {
       name: "Thor",
-      year: "2011",
+      year:
+        "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
       runtime: "1 hour, 55 minutes"
     },
     {
       name: " Thor: The Dark World",
-      year: "2013",
+      year:
+        "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
       runtime: "1 hour, 52 minutes"
     },
     {
       name: " ThorRagnarok",
-      year: "2017",
+      year:
+        "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
       runtime: "2 hours, 10 minutes"
     }
   ],
   CaptainAmerica: [
     {
       name: "CA: The First Avenger ",
-      year: "2011",
+      year:
+        "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
       runtime: "2 hours, 4 minutes"
     },
     {
       name: "CA: The Winter Soldier",
-      year: "2014",
+      year:
+        "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
       runtime: "2 hours, 16 minutes"
     },
     {
       name: "CA: Civil War",
-      year: "2016",
+      year:
+        "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
       runtime: " hours, 27 minutes"
     }
   ]
@@ -122,7 +131,7 @@ export default function App() {
                   {marvel.name} <br />
                 </div>
                 <div style={{ fontSize: "small" }}>{marvel.runtime}</div>
-                <div style={{ fontSize: "small" }}>
+                <div style={{ fontSize: "small", backgroundColor: "#AFF" }}>
                   {marvel.year} <br />
                 </div>
               </div>
@@ -131,12 +140,6 @@ export default function App() {
         </ul>
       </div>
       <footer>
-        <marquee>
-          {" "}
-          <p className="social">
-            Made with Love 💕 by<strong> Zuber Dunge </strong>
-          </p>
-        </marquee>
         <img src={marvelposter} />
       </footer>
     </div>
